@@ -3,10 +3,6 @@ body{
     color: #040404;
     font-family: "Microsoft YaHei",sans-serif;
 }
-.top_pic {
-    width: 100%;
-    text-align: center;
-}
 p {
     padding: 0;
     margin: 0;
@@ -14,13 +10,53 @@ p {
 .clear {
     clear: both;
 }
+/*黑色文字a标签样式*/
+a.black:link,
+a.black:visited{
+    text-decoration: none;
+    color: #040404;
+}
+a.black:hover,
+a.black:active {
+    text-decoration: underline;
+    color: #040404;
+}
+/*白色文字a标签样式*/
+a.white:link,
+a.white:visited{
+    text-decoration: none;
+    color: #fff;
+}
+a.white:hover,
+a.white:active {
+    text-decoration: underline;
+    color: #fff;
+}
+/*红色文字a标签样式*/
+a.red:link,
+a.red:visited{
+    text-decoration: none;
+    color: #e44b3b;
+}
+a.red:hover,
+a.red:active {
+    text-decoration: underline;
+    color: #e44b3b;
+}
 /*
 *内容开始
 */
+.top_pic {
+    width: 100%;
+    height: 363px;
+    text-align: center;
+    background: url(images/zhuanti_01.jpg) no-repeat center;
+}
 .wrap {
     width: 1010px;
     background-color: #fff;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 /**运营基础知识*****/
@@ -32,8 +68,7 @@ p {
     color: #7c3e33;
     font-size: 32px;
     line-height: 60px;
-    text-align: center;
-    background-image: url(images/淘宝运营_03.jpg);
+    background-image: url(images/zhuanti_03.jpg);
     margin-bottom: 40px;
 }
 .jichu_left {
@@ -53,28 +88,45 @@ p {
     display: inline-block;
     width: 28px;
     height: 28px;
-    border-radius: 14px;
     font-size: 16px;
     line-height: 28px;
     color: #fff;
     background-color: #62b9d5;
+    border-radius: 14px;
+    -ms-border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -o-border-radius: 14px;
+    -moz-border-radius: 14px;
 }
 .blue_xian {
-    position: absolute;
-    top: 482px;
-    float: right;
+    position: relative;
+    top: -14px;
+    float: left;
     height: 1px;
     width: 280px;
     background-color: #62b9d5;
+
 }
 .jichu_icon {
     margin: 20px 0;
+    clear: both;
+}
+.word_title:link,
+.word_title:visited {
+    color: #040404;
+    text-decoration: none;
+}
+.word_title:hover,
+.word_title:active {
+    color: #040404;
+    text-decoration: underline;
 }
 .word_title {
     font-weight: bold;
     text-align: left;
     margin-bottom: 25px;
 }
+
 .word_text {
     text-align: left;
     line-height: 24px;
@@ -105,6 +157,10 @@ p {
     padding: 40px 25px;
     margin: 25px 28px;
 }
+.jichubox img:hover {
+    opacity: .85;
+    filter:alpha(opacity=85);
+}
 
 /**运营初级篇*****/
 .chujibox {
@@ -117,38 +173,49 @@ p {
     margin: 0;
 }
 .left_title {
+    position: relative;
+    top: -4px;
     width: 280px;
     color: #fff;
     font-size: 18px;
     line-height: 48px;
-    background-image: url(images/淘宝运营_21.jpg);
+    background-image: url(images/zhuanti_21.jpg);
     margin: 0;
 }
 .center_title {
+    position: relative;
+    top: -4px;
     width: 280px;
     color: #fff;
     font-size: 18px;
     line-height: 48px;
-    background-image: url(images/淘宝运营_23.jpg);
+    background-image: url(images/zhuanti_23.jpg);
     margin: 0;
 }
 .right_title {
+    position: relative;
+    top: -4px;
     width: 280px;
     color: #fff;
     font-size: 18px;
     line-height: 48px;
-    background-image: url(images/淘宝运营_25.jpg);
+    background-image: url(images/zhuanti_25.jpg);
     margin: 0;
 }
 .first_text {
     margin: 10px 5px 0 5px;
     text-align: left;
+    line-height: 24px;
 }
 .second_text {
     margin: 20px 5px 0 5px;;
     text-align: left;
 }
-
+.left_title:hover,
+.center_title:hover,
+.right_title:hover {
+    text-shadow: 2px 2px 0 rgba(26,53,30,.2);
+}
 
 /**运营中级篇*****/
 .zhongjibox {
@@ -176,10 +243,12 @@ p {
     font-weight: bold;
     text-align: left;
     margin: 10px 0;
+    font-size: 14.5px;
 }
 .zhongji_right_text {
     text-align: left;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 28px;
 }
 
 /**运营高级篇*****/
@@ -189,13 +258,13 @@ p {
 }
 .gaoji {
     height: 720px;
-    background: url(images/淘宝运营_31.jpg) no-repeat center;
+    background: url(images/zhuanti_31.jpg) no-repeat center;
 }
 .gaoji_one {
     float: left;
     width: 430px;
     height: 220px;
-    background: url(images/淘宝运营_34.jpg) no-repeat center;
+    background: url(images/zhuanti_34.jpg) no-repeat center;
     margin-top: 20px;
     margin-left: 25px;
 }
@@ -203,7 +272,7 @@ p {
     float: left;
     width: 430px;
     height: 220px;
-    background: url(images/淘宝运营_34.jpg) no-repeat center;
+    background: url(images/zhuanti_34.jpg) no-repeat center;
     margin-top: 60px;
     margin-left: 25px;
 }
@@ -213,15 +282,16 @@ p {
     line-height: 40px;
 }
 .gaoji_text {
+    font-size: 14px;
     text-align: left;
     line-height: 24px;
-    margin: 22px 20px 0 20px;
+    margin: 20px 25px 0 25px;
 }
 .gaoji_two {
     float: right;
     width: 430px;
     height: 220px;
-    background: url(images/淘宝运营_37.jpg) no-repeat center;
+    background: url(images/zhuanti_37.jpg) no-repeat center;
     margin-top: 190px;
     margin-right: 25px;
 }
@@ -229,17 +299,17 @@ p {
     float: right;
     width: 430px;
     height: 220px;
-    background: url(images/淘宝运营_37.jpg) no-repeat center;
+    background: url(images/zhuanti_37.jpg) no-repeat center;
     margin-top: 70px;
     margin-right: 25px;
 }
-
-
-
-
+.gaoji_title:hover {
+    text-shadow: 2px 2px 0 rgba(26,53,30,.2);
+}
 /**视频详解篇*****/
-.xinagjiebox {
+.xiangjiebox {
     text-align: center;
+    margin-bottom: 30px;
 }
 .xiangjie {
     margin: 0 15px;
@@ -254,4 +324,7 @@ p {
     width: 215px;
     text-align: center;
     line-height: 32px;
+}
+.shipin_title:hover {
+    text-shadow: 2px 2px 0 rgba(53,23,30,.2);
 }
