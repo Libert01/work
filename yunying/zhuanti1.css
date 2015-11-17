@@ -44,8 +44,11 @@ p {
 }
 .jichu_left_blue {
     vertical-align: middle;
+    margin-bottom: 15px;
 }
 .blue_yuan {
+    position: relative;
+    z-index: 1;
     float: left;
     display: inline-block;
     width: 28px;
@@ -57,9 +60,11 @@ p {
     background-color: #62b9d5;
 }
 .blue_xian {
-    float: left;
+    position: absolute;
+    top: 482px;
+    float: right;
     height: 1px;
-    width: 100%;
+    width: 280px;
     background-color: #62b9d5;
 }
 .jichu_icon {
@@ -152,7 +157,7 @@ p {
 }
 .zhongji {
     float: left;
-    margin: 0 10px 30px 10px;
+    margin: 0 10px 40px 10px;
     width: 485px;
     height: 180px;
 }
