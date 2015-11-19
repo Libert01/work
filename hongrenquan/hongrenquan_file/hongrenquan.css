@@ -1,0 +1,78 @@
+.hrq_banner {
+    height: 218px;
+    background: url(hongrq_banner.jpg) center;
+    overflow: hidden;
+}
+.hrq_wrapbox {
+    width: 100%;
+    background-color: #fc5334;
+    font-size: 16px;
+    color: #000;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+.hrq_wrap {
+    width: 1010px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hrq_title {
+    font-size: 24px;
+    line-height: 46px;
+    color: #000;
+    text-align: center;
+}
+/*
+*什么是红人圈
+*/
+.hrq_what {
+    background: url(hongrq_bg1.png) no-repeat;
+    height: 366px;
+    margin-bottom: 18px;
+}
+.hrq_what_text {
+    width: 528px;
+    display: inline-block;
+    margin-left: 44px;
+    margin-top: 12px;
+    text-indent: 2em;
+}
+.hrq_what_img {
+    position: relative;
+    right: -30px;
+    bottom: 130px;
+}
+/*
+*怎么加入红人圈
+*/
+.hrq_how {
+    background: url(hongrq_bg2.png) no-repeat;
+    height: 355px;
+    margin-bottom: 18px;
+}
+
+/*
+*红人圈内容发布要求
+*/
+.hrq_claim {
+    background: url(hongrq_bg3.png) no-repeat;
+    height: 498px;
+    margin-bottom: 18px;
+}
+
+/*
+*红人圈案例
+*/
+.hrq_case {
+    background: url(hongrq_bg4.png) no-repeat;
+    height: 355px;
+    margin-bottom: 18px;
+}
+
+/*
+*红人圈评论
+*/
+.hrq_comment {
+    background: url(hongrq_bg3.png) no-repeat;
+    height: 498px;
+    margin-bottom: 18px;
+}
