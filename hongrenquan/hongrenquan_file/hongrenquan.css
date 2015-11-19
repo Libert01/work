@@ -1,3 +1,6 @@
+.clear {
+    clear: both;
+}
 .hrq_banner {
     height: 218px;
     background: url(hongrq_banner.jpg) center;
@@ -32,14 +35,16 @@
 .hrq_what_text {
     width: 528px;
     display: inline-block;
+    position: absolute;
     margin-left: 44px;
     margin-top: 12px;
     text-indent: 2em;
 }
 .hrq_what_img {
-    position: relative;
-    right: -30px;
-    bottom: 130px;
+    position: absolute;
+    float: right;
+    top: 500px;
+    left: 890px;
 }
 /*
 *怎么加入红人圈
@@ -49,7 +54,38 @@
     height: 355px;
     margin-bottom: 18px;
 }
-
+.hrq_howstep {
+    margin-top: 30px;
+    margin-left: 16px;
+}
+.hrq_step {
+    display: inline-block;
+    _zoom:1;
+    *display:inline;
+    width: 231px;
+    height: 62px;
+    line-height: 62px;
+    color: #fff;
+    background-color: #1dc3af;
+    padding-left: 8px;
+    float: left;
+    margin-right: 7px;
+}
+.hrq_howtext {
+    display: inline;
+    position: absolute;
+    z-index: 7;
+    line-height: 32px;
+    margin-left: 50px;
+    top: 975px;
+}
+.hrq_howimg {
+    display: inline;
+    float: right;
+    position: absolute;
+    right: 350px;
+    top: 942px;
+}
 /*
 *红人圈内容发布要求
 */
@@ -58,7 +94,22 @@
     height: 498px;
     margin-bottom: 18px;
 }
-
+.hrq_claim_left {
+    display: inline-block;
+    position: absolute;
+    z-index: 9;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.hrq_claim_right {
+    position: absolute;
+    z-index: 8;
+    color: #f00;
+    width: 480px;
+    display: inline-block;
+    margin-top: 20px;
+    left: 780px;
+}
 /*
 *红人圈案例
 */
@@ -67,12 +118,21 @@
     height: 355px;
     margin-bottom: 18px;
 }
-
+.hrq_casebox {
+    margin-left: 15px;
+}
+.hrq_caseone {
+    display: inline;
+    text-align: center;
+    float: left;
+    margin-top: 30px;
+    margin-left: 8px;
+}
 /*
 *红人圈评论
 */
 .hrq_comment {
-    background: url(hongrq_bg3.png) no-repeat;
+    background: url(hongrq_bg4.png) no-repeat;
     height: 498px;
     margin-bottom: 18px;
 }
